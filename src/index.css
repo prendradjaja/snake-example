@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  border: 1px solid hsl(0 0 20);
+}
+
+.empty {
+  background: black;
+}
+
+.snake {
+  background: white;
+}
+
+.fruit {
+  background: red;
+}
